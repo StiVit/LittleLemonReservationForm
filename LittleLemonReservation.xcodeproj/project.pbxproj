@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953B34C52A28FA7A005D8B00 /* LittleLemonReservationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34C42A28FA7A005D8B00 /* LittleLemonReservationApp.swift */; };
+		953B34C92A28FA7B005D8B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953B34C82A28FA7B005D8B00 /* Assets.xcassets */; };
+		953B34CD2A28FA7B005D8B00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953B34CC2A28FA7B005D8B00 /* Preview Assets.xcassets */; };
+		953B34D72A28FA7B005D8B00 /* LittleLemonReservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34D62A28FA7B005D8B00 /* LittleLemonReservationTests.swift */; };
+		953B34E12A28FA7C005D8B00 /* LittleLemonReservationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34E02A28FA7C005D8B00 /* LittleLemonReservationUITests.swift */; };
+		953B34E32A28FA7C005D8B00 /* LittleLemonReservationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34E22A28FA7C005D8B00 /* LittleLemonReservationUITestsLaunchTests.swift */; };
+		953B34F12A28FB91005D8B00 /* RestaurantLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34F02A28FB91005D8B00 /* RestaurantLocation.swift */; };
+		953B34F32A28FC2B005D8B00 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34F22A28FC2B005D8B00 /* RestaurantView.swift */; };
+		953B34F92A2901DC005D8B00 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34F82A2901DC005D8B00 /* MainView.swift */; };
+		953B34FB2A2901F9005D8B00 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34FA2A2901F9005D8B00 /* Reservation.swift */; };
+		953B35002A290342005D8B00 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B34FF2A290342005D8B00 /* ReservationForm.swift */; };
+		953B35022A29037C005D8B00 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B35012A29037C005D8B00 /* Model.swift */; };
+		953B35042A29D380005D8B00 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B35032A29D380005D8B00 /* ReservationView.swift */; };
+		953B35062A29D408005D8B00 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B35052A29D408005D8B00 /* LittleLemonLogo.swift */; };
+		953B35082A2A99CA005D8B00 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B35072A2A99CA005D8B00 /* LocationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953B34D32A28FA7B005D8B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953B34B92A28FA79005D8B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953B34C02A28FA79005D8B00;
+			remoteInfo = LittleLemonReservation;
+		};
+		953B34DD2A28FA7C005D8B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953B34B92A28FA79005D8B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953B34C02A28FA79005D8B00;
+			remoteInfo = LittleLemonReservation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		953B34C12A28FA7A005D8B00 /* LittleLemonReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B34C42A28FA7A005D8B00 /* LittleLemonReservationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonReservationApp.swift; sourceTree = "<group>"; };
+		953B34C82A28FA7B005D8B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953B34CA2A28FA7B005D8B00 /* LittleLemonReservation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LittleLemonReservation.entitlements; sourceTree = "<group>"; };
+		953B34CC2A28FA7B005D8B00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		953B34D22A28FA7B005D8B00 /* LittleLemonReservationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonReservationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B34D62A28FA7B005D8B00 /* LittleLemonReservationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonReservationTests.swift; sourceTree = "<group>"; };
+		953B34DC2A28FA7C005D8B00 /* LittleLemonReservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonReservationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B34E02A28FA7C005D8B00 /* LittleLemonReservationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonReservationUITests.swift; sourceTree = "<group>"; };
+		953B34E22A28FA7C005D8B00 /* LittleLemonReservationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonReservationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		953B34F02A28FB91005D8B00 /* RestaurantLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLocation.swift; sourceTree = "<group>"; };
+		953B34F22A28FC2B005D8B00 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		953B34F82A2901DC005D8B00 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		953B34FA2A2901F9005D8B00 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		953B34FF2A290342005D8B00 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
+		953B35012A29037C005D8B00 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		953B35032A29D380005D8B00 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		953B35052A29D408005D8B00 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
+		953B35072A2A99CA005D8B00 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953B34BE2A28FA79005D8B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B34CF2A28FA7B005D8B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B34D92A28FA7C005D8B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953B34B82A28FA79005D8B00 = {
+			isa = PBXGroup;
+			children = (
+				953B34C42A28FA7A005D8B00 /* LittleLemonReservationApp.swift */,
+				953B34F82A2901DC005D8B00 /* MainView.swift */,
+				953B35072A2A99CA005D8B00 /* LocationView.swift */,
+				953B35012A29037C005D8B00 /* Model.swift */,
+				953B35052A29D408005D8B00 /* LittleLemonLogo.swift */,
+				953B34EF2A28FB81005D8B00 /* Restaurant */,
+				953B34C32A28FA7A005D8B00 /* LittleLemonReservation */,
+				953B34D52A28FA7B005D8B00 /* LittleLemonReservationTests */,
+				953B34DF2A28FA7C005D8B00 /* LittleLemonReservationUITests */,
+				953B34C22A28FA7A005D8B00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		953B34C22A28FA7A005D8B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953B34C12A28FA7A005D8B00 /* LittleLemonReservation.app */,
+				953B34D22A28FA7B005D8B00 /* LittleLemonReservationTests.xctest */,
+				953B34DC2A28FA7C005D8B00 /* LittleLemonReservationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953B34C32A28FA7A005D8B00 /* LittleLemonReservation */ = {
+			isa = PBXGroup;
+			children = (
+				953B34FA2A2901F9005D8B00 /* Reservation.swift */,
+				953B34FF2A290342005D8B00 /* ReservationForm.swift */,
+				953B35032A29D380005D8B00 /* ReservationView.swift */,
+				953B34C82A28FA7B005D8B00 /* Assets.xcassets */,
+				953B34CA2A28FA7B005D8B00 /* LittleLemonReservation.entitlements */,
+				953B34CB2A28FA7B005D8B00 /* Preview Content */,
+			);
+			path = LittleLemonReservation;
+			sourceTree = "<group>";
+		};
+		953B34CB2A28FA7B005D8B00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				953B34CC2A28FA7B005D8B00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		953B34D52A28FA7B005D8B00 /* LittleLemonReservationTests */ = {
+			isa = PBXGroup;
+			children = (
+				953B34D62A28FA7B005D8B00 /* LittleLemonReservationTests.swift */,
+			);
+			path = LittleLemonReservationTests;
+			sourceTree = "<group>";
+		};
+		953B34DF2A28FA7C005D8B00 /* LittleLemonReservationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				953B34E02A28FA7C005D8B00 /* LittleLemonReservationUITests.swift */,
+				953B34E22A28FA7C005D8B00 /* LittleLemonReservationUITestsLaunchTests.swift */,
+			);
+			path = LittleLemonReservationUITests;
+			sourceTree = "<group>";
+		};
+		953B34EF2A28FB81005D8B00 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				953B34F02A28FB91005D8B00 /* RestaurantLocation.swift */,
+				953B34F22A28FC2B005D8B00 /* RestaurantView.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953B34C02A28FA79005D8B00 /* LittleLemonReservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B34E62A28FA7C005D8B00 /* Build configuration list for PBXNativeTarget "LittleLemonReservation" */;
+			buildPhases = (
+				953B34BD2A28FA79005D8B00 /* Sources */,
+				953B34BE2A28FA79005D8B00 /* Frameworks */,
+				953B34BF2A28FA79005D8B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleLemonReservation;
+			productName = LittleLemonReservation;
+			productReference = 953B34C12A28FA7A005D8B00 /* LittleLemonReservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953B34D12A28FA7B005D8B00 /* LittleLemonReservationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B34E92A28FA7C005D8B00 /* Build configuration list for PBXNativeTarget "LittleLemonReservationTests" */;
+			buildPhases = (
+				953B34CE2A28FA7B005D8B00 /* Sources */,
+				953B34CF2A28FA7B005D8B00 /* Frameworks */,
+				953B34D02A28FA7B005D8B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953B34D42A28FA7B005D8B00 /* PBXTargetDependency */,
+			);
+			name = LittleLemonReservationTests;
+			productName = LittleLemonReservationTests;
+			productReference = 953B34D22A28FA7B005D8B00 /* LittleLemonReservationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		953B34DB2A28FA7C005D8B00 /* LittleLemonReservationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B34EC2A28FA7C005D8B00 /* Build configuration list for PBXNativeTarget "LittleLemonReservationUITests" */;
+			buildPhases = (
+				953B34D82A28FA7C005D8B00 /* Sources */,
+				953B34D92A28FA7C005D8B00 /* Frameworks */,
+				953B34DA2A28FA7C005D8B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953B34DE2A28FA7C005D8B00 /* PBXTargetDependency */,
+			);
+			name = LittleLemonReservationUITests;
+			productName = LittleLemonReservationUITests;
+			productReference = 953B34DC2A28FA7C005D8B00 /* LittleLemonReservationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953B34B92A28FA79005D8B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					953B34C02A28FA79005D8B00 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					953B34D12A28FA7B005D8B00 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 953B34C02A28FA79005D8B00;
+					};
+					953B34DB2A28FA7C005D8B00 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 953B34C02A28FA79005D8B00;
+					};
+				};
+			};
+			buildConfigurationList = 953B34BC2A28FA79005D8B00 /* Build configuration list for PBXProject "LittleLemonReservation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953B34B82A28FA79005D8B00;
+			productRefGroup = 953B34C22A28FA7A005D8B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953B34C02A28FA79005D8B00 /* LittleLemonReservation */,
+				953B34D12A28FA7B005D8B00 /* LittleLemonReservationTests */,
+				953B34DB2A28FA7C005D8B00 /* LittleLemonReservationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953B34BF2A28FA79005D8B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B34CD2A28FA7B005D8B00 /* Preview Assets.xcassets in Resources */,
+				953B34C92A28FA7B005D8B00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B34D02A28FA7B005D8B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B34DA2A28FA7C005D8B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953B34BD2A28FA79005D8B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B35022A29037C005D8B00 /* Model.swift in Sources */,
+				953B35062A29D408005D8B00 /* LittleLemonLogo.swift in Sources */,
+				953B34C52A28FA7A005D8B00 /* LittleLemonReservationApp.swift in Sources */,
+				953B34F12A28FB91005D8B00 /* RestaurantLocation.swift in Sources */,
+				953B35002A290342005D8B00 /* ReservationForm.swift in Sources */,
+				953B34FB2A2901F9005D8B00 /* Reservation.swift in Sources */,
+				953B35042A29D380005D8B00 /* ReservationView.swift in Sources */,
+				953B35082A2A99CA005D8B00 /* LocationView.swift in Sources */,
+				953B34F92A2901DC005D8B00 /* MainView.swift in Sources */,
+				953B34F32A28FC2B005D8B00 /* RestaurantView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B34CE2A28FA7B005D8B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B34D72A28FA7B005D8B00 /* LittleLemonReservationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B34D82A28FA7C005D8B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B34E12A28FA7C005D8B00 /* LittleLemonReservationUITests.swift in Sources */,
+				953B34E32A28FA7C005D8B00 /* LittleLemonReservationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953B34D42A28FA7B005D8B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953B34C02A28FA79005D8B00 /* LittleLemonReservation */;
+			targetProxy = 953B34D32A28FA7B005D8B00 /* PBXContainerItemProxy */;
+		};
+		953B34DE2A28FA7C005D8B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953B34C02A28FA79005D8B00 /* LittleLemonReservation */;
+			targetProxy = 953B34DD2A28FA7C005D8B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		953B34E42A28FA7C005D8B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953B34E52A28FA7C005D8B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		953B34E72A28FA7C005D8B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LittleLemonReservation/LittleLemonReservation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonReservation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StiVit.LittleLemonReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953B34E82A28FA7C005D8B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LittleLemonReservation/LittleLemonReservation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemonReservation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StiVit.LittleLemonReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		953B34EA2A28FA7C005D8B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StiVit.LittleLemonReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonReservation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonReservation";
+			};
+			name = Debug;
+		};
+		953B34EB2A28FA7C005D8B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StiVit.LittleLemonReservationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleLemonReservation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LittleLemonReservation";
+			};
+			name = Release;
+		};
+		953B34ED2A28FA7C005D8B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StiVit.LittleLemonReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleLemonReservation;
+			};
+			name = Debug;
+		};
+		953B34EE2A28FA7C005D8B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StiVit.LittleLemonReservationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittleLemonReservation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953B34BC2A28FA79005D8B00 /* Build configuration list for PBXProject "LittleLemonReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B34E42A28FA7C005D8B00 /* Debug */,
+				953B34E52A28FA7C005D8B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B34E62A28FA7C005D8B00 /* Build configuration list for PBXNativeTarget "LittleLemonReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B34E72A28FA7C005D8B00 /* Debug */,
+				953B34E82A28FA7C005D8B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B34E92A28FA7C005D8B00 /* Build configuration list for PBXNativeTarget "LittleLemonReservationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B34EA2A28FA7C005D8B00 /* Debug */,
+				953B34EB2A28FA7C005D8B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B34EC2A28FA7C005D8B00 /* Build configuration list for PBXNativeTarget "LittleLemonReservationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B34ED2A28FA7C005D8B00 /* Debug */,
+				953B34EE2A28FA7C005D8B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953B34B92A28FA79005D8B00 /* Project object */;
+}
